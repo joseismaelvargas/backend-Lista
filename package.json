@@ -1,0 +1,30 @@
+{
+  "name": "configuracionbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file .env --watch index.js"
+  },
+  "keywords": [
+    "middleware",
+    "MongoDB",
+    "Base de datos",
+    "ExpressJs"
+  ],
+  "author": "Ismael Vargas",
+  "license": "ISC",
+  "description": "Backend escriba el Proyecto",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9"
+  }
+}
