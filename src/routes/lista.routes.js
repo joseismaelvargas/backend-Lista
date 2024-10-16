@@ -6,5 +6,4 @@ ruta.route('/crearlista').post(crearLista)
 ruta.route('/verLista').post(crearLista).get(mostrarLista)
 ruta.route('/editlista/:id').put(editarLista).delete(deleteLista)
 
-
 export default ruta
