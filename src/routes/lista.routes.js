@@ -3,7 +3,8 @@ import { crearLista,mostrarLista,editarLista,deleteLista} from "../controllers/l
 const ruta=Router();
 // ruta.route('/prueba').get(prueba)
 // ruta.route('/crearlista').post(crearLista)
-ruta.route('/verLista').post(crearLista).get(mostrarLista)
+ruta.route('/verLista').get(mostrarLista)
+ruta.route(/verLista/crearlista').post(crearLista)
 ruta.route('/verLista/editlista/:id').put(editarLista).delete(deleteLista)
 
 export default ruta
